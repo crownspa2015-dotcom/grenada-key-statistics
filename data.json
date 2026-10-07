@@ -9,14 +9,14 @@
   "pillars": [
     {
       "name": "Social",
-      "story": "Historical poverty reduction sits alongside recent food insecurity and a substantial youth employment gap.",
+      "story": "Material deprivation, food insecurity and barriers to youth employment",
       "cards": [
         {
           "name": "Poverty Headcount Ratio",
           "value": 25,
           "unit": "%",
           "period": "2018/19 household survey",
-          "subtitle": "A historical baseline for material deprivation; this survey does not measure poverty today.",
+          "subtitle": "A quarter of the population lived below the national poverty line in this historical survey.",
           "source": "CSO / World Bank, Living Conditions in Grenada",
           "source_url": "https://stats.gov.gd/wp-content/uploads/2023/01/LIVING-CONDITIONS-IN-GRENADA-July-2021-1.pdf"
         },
@@ -25,7 +25,7 @@
           "value": 16.09,
           "unit": "%",
           "period": "2024",
-          "subtitle": "Food insecurity remains a distinct concern alongside the older poverty baseline.",
+          "subtitle": "Difficulty securing sufficient food remains a national development concern.",
           "source": "CSO, National Food Security Inquiry 2024",
           "source_url": "https://stats.gov.gd/"
         },
@@ -54,23 +54,23 @@
     },
     {
       "name": "Economic",
-      "story": "Economic growth and tourism earnings sit alongside price pressures, public debt and a large goods trade deficit.",
+      "story": "Education and tourism earnings, living costs and external exposure",
       "cards": [
         {
-          "name": "Real GDP Growth Rate",
-          "value": 5.8,
+          "name": "Education Contribution to Gross Value Added",
+          "value": 24.38,
           "unit": "%",
-          "period": "2025 · Ministry of Finance estimate",
-          "subtitle": "Measures expansion of the economy, rather than how growth is distributed among households.",
-          "source": "Ministry of Finance, Debt Report 2025",
-          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
+          "period": "2023 · estimated, current prices",
+          "subtitle": "Education is Grenada’s largest listed industry—a major economic activity alongside tourism.",
+          "source": "CSO, Contribution of GVA by Economic Activity",
+          "source_url": "https://stats.gov.gd/subjects/gross-domestic-product/grenada-contribution-of-gross-value-added-by-economic-activity-industry-in-current-prices/"
         },
         {
           "name": "Inflation Rate",
           "value": 0.6,
           "unit": "%",
           "period": "2025 · annual period average",
-          "subtitle": "Low inflation means slower price increases; it does not mean prices returned to earlier levels.",
+          "subtitle": "Prices increased slowly over the year; low inflation does not reverse earlier increases.",
           "source": "Ministry of Finance, Debt Report 2025",
           "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
         },
@@ -79,7 +79,7 @@
           "value": 69.6,
           "unit": "%",
           "period": "End 2025",
-          "subtitle": "Public debt affects the room available to fund development and respond to shocks.",
+          "subtitle": "Public liabilities are substantial relative to the economy, affecting development financing.",
           "source": "Ministry of Finance, Debt Report 2025",
           "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
         },
@@ -88,7 +88,7 @@
           "value": -446.7,
           "unit": "EC$ million",
           "period": "Q1 2026",
-          "subtitle": "Goods imports far exceed goods exports; this measure excludes services earnings.",
+          "subtitle": "Grenada buys substantially more goods abroad than it sells; services earnings are excluded.",
           "source": "Ministry of Finance, Mid-Year Review 2026",
           "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
         },
@@ -97,7 +97,7 @@
           "value": 275.4,
           "unit": "EC$ million",
           "period": "Q1 2026",
-          "subtitle": "Visitor spending provides services earnings; it does not measure tourism’s full contribution to GDP.",
+          "subtitle": "Tourism generates spending in Grenada, helping explain the services side of its economy.",
           "source": "Ministry of Finance, Mid-Year Review 2026",
           "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
         }
@@ -106,7 +106,7 @@
     },
     {
       "name": "Environmental",
-      "story": "A major hurricane shock and diesel-dominated electricity make disaster resilience and energy transition central development concerns.",
+      "story": "Hurricane damage and dependence on diesel electricity",
       "cards": [
         {
           "name": "Estimated Direct Economic Damage from Hurricane Beryl",
