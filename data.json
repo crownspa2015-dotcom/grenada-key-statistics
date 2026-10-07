@@ -4,7 +4,8 @@
   "population": {
     "value": 109021,
     "period": "2021 preliminary census",
-    "source_url": "https://stats.gov.gd/wp-content/uploads/2025/04/2021-National-Housing-Population-Census-Results-Latest-PRELIMINARY.pdf"
+    "source_url": "https://stats.gov.gd/wp-content/uploads/2025/04/2021-National-Housing-Population-Census-Results-Latest-PRELIMINARY.pdf",
+    "name": "Census Population"
   },
   "pillars": [
     {
@@ -31,33 +32,32 @@
         },
         {
           "name": "Unemployment Rate and Youth Unemployment Rate",
-          "value": 26.3,
+          "value": 20.2,
           "unit": "% · youth",
-          "period": "Q2 2025 · youth ages 15–24",
+          "period": "Q3 2025 · youth ages 15–24",
           "subtitle": "Youth unemployment is more than twice the overall rate in the same quarter.",
-          "source": "CSO, Labour Force Survey Q2 2025",
-          "source_url": "https://stats.gov.gd/wp-content/uploads/2025/10/2025Q2_LFS_Basic_Tables_Results.pdf",
+          "source": "CSO, reproduced in Ministry of Finance MTFF 2027–2029, Figure 21",
+          "source_url": "https://finance.gd/docs/2026/MTFF_2027_2029_AUG7_2026.pdf",
           "bars": [
             [
               "Overall",
-              10.8
+              7.5
             ],
             [
               "Youth (15–24)",
-              26.3
+              20.2
             ]
           ],
           "bar_unit": "%"
         },
         {
           "name": "Proportion of Deaths from Noncommunicable Diseases",
-          "value": 82.8,
+          "value": 59.1,
           "unit": "%",
-          "period": "2019 · PAHO interagency indicator",
-          "subtitle": "Chronic diseases dominate mortality, making prevention and long-term care central to development.",
-          "source": "PAHO, Health in the Americas: Grenada country profile",
-          "source_url": "https://hia.paho.org/en/country-profiles/grenada",
-          "source_published": "2024-09-17"
+          "period": "2021 · WHO estimate",
+          "subtitle": "Noncommunicable diseases remained the largest broad cause of death in this pandemic year; this share is not a measure of disease prevalence.",
+          "source": "WHO, Grenada health data overview / Global Health Estimates",
+          "source_url": "https://data.who.int/countries/308"
         }
       ],
       "fact_count": 6
@@ -77,30 +77,30 @@
         },
         {
           "name": "Inflation Rate",
-          "value": 0.6,
+          "value": 0.71,
           "unit": "%",
-          "period": "2025 · annual period average",
-          "subtitle": "Prices increased slowly over the year; low inflation does not reverse earlier increases.",
-          "source": "Ministry of Finance, Debt Report 2025",
-          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
+          "period": "March 2026 · year-on-year",
+          "subtitle": "Consumer prices were above the same month a year earlier; this is a monthly year-on-year rate, not a full-year average.",
+          "source": "CSO, reproduced in Ministry of Finance MTFF 2027–2029, Table 2",
+          "source_url": "https://finance.gd/docs/2026/MTFF_2027_2029_AUG7_2026.pdf"
         },
         {
           "name": "Total Public Debt-to-GDP Ratio",
-          "value": 69.6,
+          "value": 67.3,
           "unit": "%",
-          "period": "End 2025",
+          "period": "End March 2026",
           "subtitle": "Public liabilities are substantial relative to the economy, affecting development financing.",
-          "source": "Ministry of Finance, Debt Report 2025",
-          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
+          "source": "Ministry of Finance, MTFF 2027–2029, Section 1.4",
+          "source_url": "https://finance.gd/docs/2026/MTFF_2027_2029_AUG7_2026.pdf"
         },
         {
           "name": "Merchandise Trade Balance",
-          "value": -446.7,
+          "value": -446.8,
           "unit": "EC$ million",
           "period": "Q1 2026",
           "subtitle": "Grenada buys substantially more goods abroad than it sells; services earnings are excluded.",
-          "source": "Ministry of Finance, Mid-Year Review 2026",
-          "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
+          "source": "CSO, reproduced in Ministry of Finance MTFF 2027–2029",
+          "source_url": "https://finance.gd/docs/2026/MTFF_2027_2029_AUG7_2026.pdf"
         },
         {
           "name": "Visitor Expenditure",
@@ -108,8 +108,8 @@
           "unit": "EC$ million",
           "period": "Q1 2026",
           "subtitle": "Tourism generates spending in Grenada, helping explain the services side of its economy.",
-          "source": "Ministry of Finance, Mid-Year Review 2026",
-          "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
+          "source": "GTA / ECCB, reproduced in Ministry of Finance MTFF 2027–2029, Table 8",
+          "source_url": "https://finance.gd/docs/2026/MTFF_2027_2029_AUG7_2026.pdf"
         },
         {
           "name": "Real GDP Growth Rate",
@@ -117,8 +117,8 @@
           "unit": "%",
           "period": "2025 · Ministry of Finance estimate",
           "subtitle": "Grenada’s economy expanded in real terms; growth does not show how gains were distributed.",
-          "source": "Ministry of Finance, Debt Report 2025",
-          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
+          "source": "Ministry of Finance, MTFF 2027–2029, Appendix 2",
+          "source_url": "https://finance.gd/docs/2026/MTFF_2027_2029_AUG7_2026.pdf"
         }
       ],
       "fact_count": 6
@@ -163,5 +163,58 @@
   ],
   "fact_count": 15,
   "counting_rule": "Every distinct displayed statistical value counts, including contextual and secondary values. Dates, units and source metadata are excluded. Repeated labels of the same value do not add a fact.",
-  "pillar_limit_exception": "User authorised a sixth economic indicator on 7 October 2026 while retaining the overall 15-fact maximum."
+  "pillar_limit_exception": "User authorised a sixth economic indicator on 7 October 2026 while retaining the overall 15-fact maximum.",
+  "freshness_audit": {
+    "date": "2026-10-07",
+    "scope": "Latest verified comparable observations found in accessible national government, utility and WHO releases. Not a guarantee that no unindexed or unpublished data exist.",
+    "changes": [
+      "Unemployment updated to Q3 2025: overall 7.5%, youth 20.2%, confirmed by Figure 21.",
+      "Health updated to WHO 2021 estimate, 59.1%, with pandemic context.",
+      "Inflation updated to March 2026 year-on-year 0.71%; basis changed from annual average and clearly labelled.",
+      "Public debt updated to March 2026 67.3%.",
+      "Q1 2026 trade balance revised to EC$-446.8m from newer August framework."
+    ],
+    "retained": [
+      {
+        "indicator": "Census population",
+        "period": "2021",
+        "reason": "Latest preliminary national census found. Newer international population estimates exist but are not the same census observation."
+      },
+      {
+        "indicator": "Poverty headcount",
+        "period": "2018/19",
+        "reason": "Latest completed national household survey result found; new survey scheduled November 2025–October 2026."
+      },
+      {
+        "indicator": "Food insecurity",
+        "period": "2024",
+        "reason": "Latest CSO NFSI figure found on official homepage."
+      },
+      {
+        "indicator": "Education share of GVA",
+        "period": "2023",
+        "reason": "Latest explicit current-price CSO sector-share table found. Newer FROC narrative cites 23% but does not establish a comparable price basis and reference year; not substituted."
+      },
+      {
+        "indicator": "Visitor expenditure",
+        "period": "Q1 2026",
+        "reason": "Confirmed unchanged at EC$275.4m in August 2026 framework."
+      },
+      {
+        "indicator": "Real GDP growth",
+        "period": "2025",
+        "reason": "Latest completed-year estimate found remains 5.8%; 2026 growth figures are forecasts, not completed-year outcomes."
+      },
+      {
+        "indicator": "Beryl direct damage",
+        "period": "July 2024 event; August 2024 GRADE assessment",
+        "reason": "Historical event estimate remains 16.5% of 2023 GDP in original assessment; no same-scope revision found."
+      },
+      {
+        "indicator": "Electricity generation by source",
+        "period": "2024",
+        "reason": "Grenlec annual reports catalogue lists 2024 as newest report; no 2025 report found."
+      }
+    ]
+  }
 }
