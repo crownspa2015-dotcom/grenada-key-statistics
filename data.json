@@ -16,7 +16,7 @@
           "value": 25,
           "unit": "%",
           "period": "2018/19 household survey",
-          "subtitle": "Down from 37.7% in 2008/09; this is a historical baseline, not a current poverty estimate.",
+          "subtitle": "A historical baseline for material deprivation; this survey does not measure poverty today.",
           "source": "CSO / World Bank, Living Conditions in Grenada",
           "source_url": "https://stats.gov.gd/wp-content/uploads/2023/01/LIVING-CONDITIONS-IN-GRENADA-July-2021-1.pdf"
         },
@@ -27,8 +27,7 @@
           "period": "2024",
           "subtitle": "Food insecurity remains a distinct concern alongside the older poverty baseline.",
           "source": "CSO, National Food Security Inquiry 2024",
-          "source_url": "https://stats.gov.gd/",
-          "secondary": "Severe food insecurity: 4.2%"
+          "source_url": "https://stats.gov.gd/"
         },
         {
           "name": "Unemployment Rate and Youth Unemployment Rate",
@@ -38,8 +37,6 @@
           "subtitle": "Youth unemployment is more than twice the overall rate in the same quarter.",
           "source": "CSO, Labour Force Survey Q2 2025",
           "source_url": "https://stats.gov.gd/wp-content/uploads/2025/10/2025Q2_LFS_Basic_Tables_Results.pdf",
-          "secondary": "Later MoF summary: 7.5% overall in Q3 2025.",
-          "secondary_source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf",
           "bars": [
             [
               "Overall",
@@ -52,18 +49,19 @@
           ],
           "bar_unit": "%"
         }
-      ]
+      ],
+      "fact_count": 5
     },
     {
       "name": "Economic",
-      "story": "Education and tourism shape a services economy; growth must be assessed alongside prices, public debt and a large merchandise trade gap.",
+      "story": "Economic growth and tourism earnings sit alongside price pressures, public debt and a large goods trade deficit.",
       "cards": [
         {
           "name": "Real GDP Growth Rate",
           "value": 5.8,
           "unit": "%",
           "period": "2025 · Ministry of Finance estimate",
-          "subtitle": "Growth was accompanied by a 20.7% expansion in construction.",
+          "subtitle": "Measures expansion of the economy, rather than how growth is distributed among households.",
           "source": "Ministry of Finance, Debt Report 2025",
           "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
         },
@@ -74,8 +72,7 @@
           "period": "2025 · annual period average",
           "subtitle": "Low inflation means slower price increases; it does not mean prices returned to earlier levels.",
           "source": "Ministry of Finance, Debt Report 2025",
-          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf",
-          "secondary": "2023: 2.7% · 2024: 1.1%"
+          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
         },
         {
           "name": "Total Public Debt-to-GDP Ratio",
@@ -84,8 +81,7 @@
           "period": "End 2025",
           "subtitle": "Public debt affects the room available to fund development and respond to shocks.",
           "source": "Ministry of Finance, Debt Report 2025",
-          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf",
-          "secondary": "Total public debt: EC$2,809.57 million"
+          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
         },
         {
           "name": "Merchandise Trade Balance",
@@ -94,69 +90,19 @@
           "period": "Q1 2026",
           "subtitle": "Goods imports far exceed goods exports; this measure excludes services earnings.",
           "source": "Ministry of Finance, Mid-Year Review 2026",
-          "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf",
-          "bars": [
-            [
-              "Imports",
-              470.2
-            ],
-            [
-              "Exports",
-              23.4
-            ]
-          ],
-          "bar_unit": "EC$ million"
+          "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
         },
         {
           "name": "Visitor Expenditure",
           "value": 275.4,
           "unit": "EC$ million",
           "period": "Q1 2026",
-          "subtitle": "Tourism brings services earnings alongside a large goods trade deficit.",
+          "subtitle": "Visitor spending provides services earnings; it does not measure tourism’s full contribution to GDP.",
           "source": "Ministry of Finance, Mid-Year Review 2026",
-          "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf",
-          "bars": [
-            [
-              "Q1 2025",
-              262.2
-            ],
-            [
-              "Q1 2026",
-              275.4
-            ]
-          ],
-          "bar_unit": "EC$ million",
-          "secondary": "Visitor expenditure rose 5% compared with the same quarter of 2025.",
-          "context": {
-            "name": "Contribution of Gross Value Added by Economic Activity",
-            "value": 24.38,
-            "unit": "% · education",
-            "period": "2023 · estimated, current prices",
-            "subtitle": "Education is the largest listed industry; hotels and restaurants capture only part of tourism’s wider contribution.",
-            "source": "CSO, Contribution of GVA by Economic Activity",
-            "source_url": "https://stats.gov.gd/subjects/gross-domestic-product/grenada-contribution-of-gross-value-added-by-economic-activity-industry-in-current-prices/",
-            "bars": [
-              [
-                "Education",
-                24.38
-              ],
-              [
-                "Construction",
-                9.88
-              ],
-              [
-                "Hotels & restaurants",
-                7.71
-              ],
-              [
-                "Agriculture, livestock & forestry",
-                2.69
-              ]
-            ],
-            "bar_unit": "% of GVA"
-          }
+          "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
         }
-      ]
+      ],
+      "fact_count": 5
     },
     {
       "name": "Environmental",
@@ -192,7 +138,10 @@
           "bar_unit": "GWh",
           "secondary": "Source values converted from kWh to GWh; these describe the Grenlec system."
         }
-      ]
+      ],
+      "fact_count": 4
     }
-  ]
+  ],
+  "fact_count": 14,
+  "counting_rule": "Every distinct displayed statistical value counts, including contextual and secondary values. Dates, units and source metadata are excluded. Repeated labels of the same value do not add a fact."
 }
