@@ -125,7 +125,7 @@
     },
     {
       "name": "Environmental",
-      "story": "Hurricane damage and dependence on diesel electricity",
+      "story": "Hurricane damage, forest protection and dependence on diesel electricity",
       "cards": [
         {
           "name": "Estimated Direct Economic Damage from Hurricane Beryl",
@@ -135,6 +135,17 @@
           "subtitle": "A single hurricane caused direct damage large enough to threaten development gains.",
           "source": "World Bank / GFDRR, Hurricane Beryl GRADE",
           "source_url": "https://www.gfdrr.org/en/publication/global-rapid-post-disaster-damage-estimation-grade-report-hurricane-beryl-2024-grenada"
+        },
+        {
+          "name": "Proportion of Forest Area within Legally Established Protected Areas",
+          "value": 13.1,
+          "unit": "% of forest area",
+          "period": "2025",
+          "subtitle": "Formal protection of forests supports biodiversity conservation and watershed resilience.",
+          "source": "UN Statistics Division, Grenada SDG country profile",
+          "source_url": "https://unstats.un.org/sdgs/dataportal/countryprofiles/grd?goal=15",
+          "scope": "National; denominator is forest area, not total land area.",
+          "verification": "UN country-profile indexed text, reviewed 7 October 2026"
         },
         {
           "name": "Net Electricity Generation by Source",
@@ -158,10 +169,10 @@
           "secondary": "Source values converted from kWh to GWh; these describe the Grenlec system."
         }
       ],
-      "fact_count": 3
+      "fact_count": 4
     }
   ],
-  "fact_count": 15,
+  "fact_count": 16,
   "counting_rule": "Every distinct displayed statistical value counts, including contextual and secondary values. Dates, units and source metadata are excluded. Repeated labels of the same value do not add a fact.",
   "pillar_limit_exception": "User authorised a sixth economic indicator on 7 October 2026 while retaining the overall 15-fact maximum.",
   "freshness_audit": {
@@ -214,7 +225,13 @@
         "indicator": "Electricity generation by source",
         "period": "2024",
         "reason": "Grenlec annual reports catalogue lists 2024 as newest report; no 2025 report found."
+      },
+      {
+        "indicator": "Proportion of Forest Area within Legally Established Protected Areas",
+        "period": "2025",
+        "reason": "Added from UN Grenada SDG country profile; national forest-area protection coverage."
       }
     ]
-  }
+  },
+  "counting_limit_exception": "User explicitly authorised adding forest protection between the existing environmental indicators on 7 October 2026; total is now 16 facts."
 }
