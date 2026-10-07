@@ -9,7 +9,7 @@
   "pillars": [
     {
       "name": "Social",
-      "story": "Poverty reduction has not removed food insecurity, and young people face a much harder labour market.",
+      "story": "Historical poverty reduction sits alongside recent food insecurity and a substantial youth employment gap.",
       "cards": [
         {
           "name": "Poverty Headcount Ratio",
@@ -31,24 +31,26 @@
           "secondary": "Severe food insecurity: 4.2%"
         },
         {
-          "name": "Unemployment Rate",
-          "value": 10.8,
-          "unit": "%",
-          "period": "Q2 2025",
-          "subtitle": "The overall labour market provides the comparison for youth unemployment.",
+          "name": "Unemployment Rate and Youth Unemployment Rate",
+          "value": 26.3,
+          "unit": "% · youth",
+          "period": "Q2 2025 · youth ages 15–24",
+          "subtitle": "Youth unemployment is more than twice the overall rate in the same quarter.",
           "source": "CSO, Labour Force Survey Q2 2025",
           "source_url": "https://stats.gov.gd/wp-content/uploads/2025/10/2025Q2_LFS_Basic_Tables_Results.pdf",
           "secondary": "Later MoF summary: 7.5% overall in Q3 2025.",
-          "secondary_source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
-        },
-        {
-          "name": "Youth Unemployment Rate",
-          "value": 26.3,
-          "unit": "%",
-          "period": "Q2 2025 · ages 15–24",
-          "subtitle": "Young people face substantially higher unemployment than the overall labour force in the same quarter.",
-          "source": "CSO, Labour Force Survey Q2 2025",
-          "source_url": "https://stats.gov.gd/wp-content/uploads/2025/10/2025Q2_LFS_Basic_Tables_Results.pdf"
+          "secondary_source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf",
+          "bars": [
+            [
+              "Overall",
+              10.8
+            ],
+            [
+              "Youth (15–24)",
+              26.3
+            ]
+          ],
+          "bar_unit": "%"
         }
       ]
     },
@@ -106,40 +108,59 @@
           "bar_unit": "EC$ million"
         },
         {
-          "name": "Contribution of Gross Value Added by Economic Activity",
-          "value": 24.38,
-          "unit": "% · education",
-          "period": "2023 · estimated, current prices",
-          "subtitle": "Education is the largest listed industry; hotels and restaurants capture only part of tourism’s wider contribution.",
-          "source": "CSO, Contribution of GVA by Economic Activity",
-          "source_url": "https://stats.gov.gd/subjects/gross-domestic-product/grenada-contribution-of-gross-value-added-by-economic-activity-industry-in-current-prices/",
+          "name": "Visitor Expenditure",
+          "value": 275.4,
+          "unit": "EC$ million",
+          "period": "Q1 2026",
+          "subtitle": "Tourism brings services earnings alongside a large goods trade deficit.",
+          "source": "Ministry of Finance, Mid-Year Review 2026",
+          "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf",
           "bars": [
             [
-              "Education",
-              24.38
+              "Q1 2025",
+              262.2
             ],
             [
-              "Construction",
-              9.88
-            ],
-            [
-              "Hotels & restaurants",
-              7.71
-            ],
-            [
-              "Agriculture, livestock & forestry",
-              2.69
+              "Q1 2026",
+              275.4
             ]
           ],
-          "bar_unit": "% of GVA",
-          "secondary": "Visitor expenditure: EC$275.4 million, Q1 2026 (Ministry of Finance).",
-          "secondary_source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
+          "bar_unit": "EC$ million",
+          "secondary": "Visitor expenditure rose 5% compared with the same quarter of 2025.",
+          "context": {
+            "name": "Contribution of Gross Value Added by Economic Activity",
+            "value": 24.38,
+            "unit": "% · education",
+            "period": "2023 · estimated, current prices",
+            "subtitle": "Education is the largest listed industry; hotels and restaurants capture only part of tourism’s wider contribution.",
+            "source": "CSO, Contribution of GVA by Economic Activity",
+            "source_url": "https://stats.gov.gd/subjects/gross-domestic-product/grenada-contribution-of-gross-value-added-by-economic-activity-industry-in-current-prices/",
+            "bars": [
+              [
+                "Education",
+                24.38
+              ],
+              [
+                "Construction",
+                9.88
+              ],
+              [
+                "Hotels & restaurants",
+                7.71
+              ],
+              [
+                "Agriculture, livestock & forestry",
+                2.69
+              ]
+            ],
+            "bar_unit": "% of GVA"
+          }
         }
       ]
     },
     {
       "name": "Environmental",
-      "story": "Hurricane losses, diesel electricity and different island water sources make resilience central to national development.",
+      "story": "A major hurricane shock and diesel-dominated electricity make disaster resilience and energy transition central development concerns.",
       "cards": [
         {
           "name": "Estimated Direct Economic Damage from Hurricane Beryl",
@@ -170,31 +191,6 @@
           ],
           "bar_unit": "GWh",
           "secondary": "Source values converted from kWh to GWh; these describe the Grenlec system."
-        },
-        {
-          "name": "Households by Main Source of Drinking Water",
-          "value": 861,
-          "unit": "households · rainwater",
-          "period": "2021 preliminary census · Carriacou & Petite Martinique",
-          "subtitle": "The sister islands’ water sources differ from national patterns; source type does not measure water safety or reliability.",
-          "source": "CSO, Preliminary Census 2021, Table 33",
-          "source_url": "https://stats.gov.gd/wp-content/uploads/2025/04/2021-National-Housing-Population-Census-Results-Latest-PRELIMINARY.pdf",
-          "bars": [
-            [
-              "Catchments / rainwater",
-              861
-            ],
-            [
-              "Private piped supply",
-              823
-            ],
-            [
-              "Public piped into dwelling",
-              16
-            ]
-          ],
-          "bar_unit": "households",
-          "secondary": "1,868 households in Carriacou & Petite Martinique. Selected categories; not an exhaustive breakdown."
         }
       ]
     }
