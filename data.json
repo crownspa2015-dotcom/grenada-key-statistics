@@ -100,9 +100,18 @@
           "subtitle": "Tourism generates spending in Grenada, helping explain the services side of its economy.",
           "source": "Ministry of Finance, Mid-Year Review 2026",
           "source_url": "https://finance.gd/docs/2026/Mid_Year_Review_Report_2026.pdf"
+        },
+        {
+          "name": "Real GDP Growth Rate",
+          "value": 5.8,
+          "unit": "%",
+          "period": "2025 · Ministry of Finance estimate",
+          "subtitle": "Grenada’s economy expanded in real terms; growth does not show how gains were distributed.",
+          "source": "Ministry of Finance, Debt Report 2025",
+          "source_url": "https://finance.gd/docs/2026/DEBT_REPORT_2025.pdf"
         }
       ],
-      "fact_count": 5
+      "fact_count": 6
     },
     {
       "name": "Environmental",
@@ -142,6 +151,7 @@
       "fact_count": 4
     }
   ],
-  "fact_count": 14,
-  "counting_rule": "Every distinct displayed statistical value counts, including contextual and secondary values. Dates, units and source metadata are excluded. Repeated labels of the same value do not add a fact."
+  "fact_count": 15,
+  "counting_rule": "Every distinct displayed statistical value counts, including contextual and secondary values. Dates, units and source metadata are excluded. Repeated labels of the same value do not add a fact.",
+  "pillar_limit_exception": "User authorised a sixth economic indicator on 7 October 2026 while retaining the overall 15-fact maximum."
 }
