@@ -9,7 +9,7 @@
   "pillars": [
     {
       "name": "Social",
-      "story": "Material deprivation, food insecurity and barriers to youth employment",
+      "story": "Material deprivation, food insecurity, youth employment and chronic disease",
       "cards": [
         {
           "name": "Poverty Headcount Ratio",
@@ -48,9 +48,19 @@
             ]
           ],
           "bar_unit": "%"
+        },
+        {
+          "name": "Proportion of Deaths from Noncommunicable Diseases",
+          "value": 82.8,
+          "unit": "%",
+          "period": "2019 · PAHO interagency indicator",
+          "subtitle": "Chronic diseases dominate mortality, making prevention and long-term care central to development.",
+          "source": "PAHO, Health in the Americas: Grenada country profile",
+          "source_url": "https://hia.paho.org/en/country-profiles/grenada",
+          "source_published": "2024-09-17"
         }
       ],
-      "fact_count": 5
+      "fact_count": 6
     },
     {
       "name": "Economic",
@@ -119,10 +129,10 @@
       "cards": [
         {
           "name": "Estimated Direct Economic Damage from Hurricane Beryl",
-          "value": 218,
-          "unit": "US$ million",
+          "value": 16.5,
+          "unit": "% of 2023 GDP",
           "period": "July 2024 · disaster estimate",
-          "subtitle": "Damage equivalent to 16.5% of 2023 GDP shows the scale of a single hurricane shock.",
+          "subtitle": "A single hurricane caused direct damage large enough to threaten development gains.",
           "source": "World Bank / GFDRR, Hurricane Beryl GRADE",
           "source_url": "https://www.gfdrr.org/en/publication/global-rapid-post-disaster-damage-estimation-grade-report-hurricane-beryl-2024-grenada"
         },
@@ -148,7 +158,7 @@
           "secondary": "Source values converted from kWh to GWh; these describe the Grenlec system."
         }
       ],
-      "fact_count": 4
+      "fact_count": 3
     }
   ],
   "fact_count": 15,
